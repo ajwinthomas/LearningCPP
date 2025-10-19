@@ -1,0 +1,30 @@
+@"
+# Ignore Visual Studio temporary files
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build directories
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+
+# Ignore backup and log files
+*.log
+*.tmp
+
+# Ignore generated files
+*.exe
+*.pdb
+*.idb
+
+# Ignore other IDE-specific stuff
+*.db
+"@ | Out-File -Encoding UTF8 .gitignore
