@@ -74,27 +74,37 @@
 
 //--------------------------unreferenced parameters and unnamed parameters------------------------------
 
+//#include<iostream>
+//
+//void Print(int num)
+//{
+//	//here we have an  parameter num. but we don't used it . it gives us a warning unreferenced parameter.
+//	std::cout << num;
+//}
+//
+//
+//void anotherPrint(int /*num*/) // here there is  an parameter but it is unnamed which is known as 
+//{								//unnamed parameter. it doesn't create an error it is valid.
+//
+//}
+//
+//int doubleNumber(int c)
+//{
+//	return c * 2;
+//}
+//
+//int main()
+//{
+//	Print(1);
+//	anotherPrint(5);
+//	doubleNumber(4);
+//}
+#include "anotherfile.h"
 #include<iostream>
 
-void Print(int num)
-{
-	//here we have an  parameter num. but we don't used it . it gives us a warning unreferenced parameter.
-	std::cout << num;
-}
 
 
-void anotherPrint(int /*num*/) // here there is  an parameter but it is unnamed which is known as 
-{								//unnamed parameter. it doesn't create an error it is valid.
-
-}
-
-int doubleNumber(int c)
-{
-	return c * 2;
-}
 int main()
 {
-	Print(1);
-	anotherPrint(5);
-	doubleNumber(4);
+	std::cout << " The sum of 3 and 4 is : " << add(3, 4) << '\n';
 }

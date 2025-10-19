@@ -136,6 +136,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01_Functions.cpp" />
+    <ClCompile Include="anotherfile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anotherfile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
